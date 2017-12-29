@@ -1,0 +1,123 @@
+// GENERAL
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.landing-page{
+
+
+
+
+
+  background-color: blue;
+}
+
+.general-infos {
+  background-color: brown;
+
+}
+
+.foreword {
+  background-color: red;
+  display: none;
+
+}
+
+.times {
+  background-color: blue;
+  display: none;
+
+}
+
+.maps {
+  background-color: green;
+  display: none;
+
+}
+
+.contact {
+  background-color: yellow;
+  display: none;
+
+}
+
+.team {
+  background-color: teal;
+}
+
+.andreas {
+  background-color: orange;
+  display: none;
+
+}
+
+.felix {
+  background-color: grey;
+  display: none;
+
+}
+
+.stefan {
+  background-color: green;
+  display: none;
+
+}
+
+.tanja {
+  background-color: blue;
+  display: none;
+
+}
+
+.silvia {
+  background-color:yellow;
+  display: none;
+
+}
+
+.jasminke {
+  background-color: purple;
+  display: none;
+
+}
+
+.impressum{
+  background-color: purple;
+}
