@@ -96,6 +96,41 @@ body {
   .landing-page .arrow-down {
     width: 180px;
     height: 108px; } }
+.general-infos .general-infos-wrapper {
+  position: relative;
+  width: 75%;
+  height: 75%;
+  margin: 12.5%;
+  background-color: grey;
+  line-height: 0; }
+  .general-infos .general-infos-wrapper .infos-foreword {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: blue; }
+  .general-infos .general-infos-wrapper .infos-times {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background-color: green; }
+  .general-infos .general-infos-wrapper .infos-maps {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: red; }
+  .general-infos .general-infos-wrapper .infos-contact {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background-color: yellow; }
 .general-infos .arrow-up {
   cursor: pointer;
   width: 250px;
