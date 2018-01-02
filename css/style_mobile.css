@@ -41,7 +41,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  .landing-page .arrow-down-infos {
+  .landing-page .arrow-down {
     cursor: pointer;
     width: 200px;
     height: 120px;
@@ -72,39 +72,61 @@ body {
     width: 180px; }
   .landing-page .headline h1 {
     font-size: 40px; }
-  .landing-page .arrow-down-infos {
-    width: 180px;
-    height: 108px; } }
+  .landing-page .arrow-down {
+    width: 130px;
+    height: 78px; } }
 @media screen and (max-width: 899px) and (min-width: 700px) {
-  .landing-page .headline img {
-    margin-top: -20px;
-    height: 150px;
-    width: 150px; }
-  .landing-page .headline h1 {
-    font-size: 40px; }
-  .landing-page .arrow-down-infos {
-    width: 160px;
-    height: 96px; } }
+  .landing-page {
+    margin-left: -40px; }
+    .landing-page .headline img {
+      margin-top: -20px;
+      margin-left: 60px;
+      height: 150px;
+      width: 150px; }
+    .landing-page .headline h1 {
+      font-size: 40px; }
+    .landing-page .arrow-down {
+      width: 130px;
+      height: 78px;
+      margin-left: 20px; } }
 @media screen and (max-width: 699px) and (min-width: 480px) {
   .landing-page .headline img {
-    margin-top: -20px;
+    margin-top: -30px;
+    margin-left: 90px;
     height: 120px;
     width: 120px; }
   .landing-page .headline h1 {
-    font-size: 30px; }
-  .landing-page .arrow-down-infos {
-    width: 150px;
-    height: 90px; } }
-@media screen and (max-width: 479px) and (min-width: 320px) {
-  .landing-page .headline img {
-    margin-top: -20px;
-    height: 80px;
-    width: 80px; }
-  .landing-page .headline h1 {
-    font-size: 20px; }
-  .landing-page .arrow-down-infos {
+    font-size: 25px; }
+  .landing-page .arrow-down {
     width: 100px;
     height: 60px; } }
+@media screen and (max-width: 479px) and (min-width: 320px) {
+  .landing-page {
+    margin-left: -25px; }
+    .landing-page .headline img {
+      margin-top: -20px;
+      margin-left: 140px;
+      height: 80px;
+      width: 80px; }
+    .landing-page .headline h1 {
+      font-size: 18px; }
+    .landing-page .arrow-down {
+      width: 100px;
+      height: 60px; } }
+@media screen and (max-width: 319px) and (min-width: 0px) {
+  .landing-page {
+    margin-left: -25px; }
+    .landing-page .headline img {
+      margin-top: -10px;
+      margin-left: 165px;
+      height: 55px;
+      width: 55px; }
+    .landing-page .headline h1 {
+      font-size: 15px; }
+    .landing-page .arrow-down {
+      margin-left: 10px;
+      width: 100px;
+      height: 60px; } }
 .general-infos {
   background-color: brown;
   display: none; }

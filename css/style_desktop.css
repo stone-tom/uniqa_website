@@ -42,10 +42,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  .landing-page .arrow-down-infos {
+  .landing-page .arrow-down {
     cursor: pointer;
     width: 200px;
-    height: 120px;
+    height: 133px;
     position: absolute;
     bottom: 0; }
   .landing-page .headline {
@@ -73,9 +73,9 @@ body {
     width: 280px; }
   .landing-page .headline h1 {
     font-size: 70px; }
-  .landing-page .arrow-down-infos {
+  .landing-page .arrow-down {
     width: 250px;
-    height: 150px; } }
+    height: 166px; } }
 @media screen and (max-width: 1599px) and (min-width: 1280px) {
   .landing-page img {
     height: 250px;
@@ -83,7 +83,7 @@ body {
   .landing-page h1 {
     font-size: 60px; }
 
-  .arrow-down-infos {
+  .arrow-down {
     width: 200px;
     height: 120px; } }
 @media screen and (max-width: 1279px) and (min-width: 1081px) {
@@ -93,11 +93,21 @@ body {
     width: 200px; }
   .landing-page .headline h1 {
     font-size: 50px; }
-  .landing-page .arrow-down-infos {
+  .landing-page .arrow-down {
     width: 180px;
     height: 108px; } }
-.general-infos {
-  background-color: brown; }
+.general-infos .arrow-up {
+  cursor: pointer;
+  width: 250px;
+  height: 166px;
+  position: absolute;
+  top: 0; }
+.general-infos .arrow-down {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  width: 250px;
+  height: 166px; }
 
 .foreword {
   background-color: red;
@@ -117,6 +127,18 @@ body {
 
 .team {
   background-color: teal; }
+  .team .arrow-up {
+    cursor: pointer;
+    width: 250px;
+    height: 166px;
+    position: absolute;
+    top: 0; }
+  .team .arrow-down {
+    cursor: pointer;
+    width: 250px;
+    height: 166px;
+    position: absolute;
+    bottom: 0; }
 
 .andreas {
   background-color: orange;
@@ -144,5 +166,11 @@ body {
 
 .impressum {
   background-color: purple; }
+  .impressum .arrow-up {
+    cursor: pointer;
+    width: 250px;
+    height: 166px;
+    position: absolute;
+    top: 0; }
 
 /*# sourceMappingURL=style_desktop.css.map */

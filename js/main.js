@@ -3,6 +3,7 @@ $(document).ready(function () {
 
 
     var swiperV = new Swiper('.swiper-general-v', {
+        initialSlide:1,
         direction: 'vertical',
         mousewheel: {
             invert: true,
@@ -11,8 +12,8 @@ $(document).ready(function () {
             invert:true,
         },
         navigation: {
-            nextEl: '.arrow-down-infos',
-            prevEl: '.arrow-up-landing',
+            nextEl: '.arrow-down',
+            prevEl: '.arrow-up',
         },
 
         pagination: {
@@ -22,6 +23,8 @@ $(document).ready(function () {
     });
 
     var swiperH1 = new Swiper('.swiper-info-h', {
+        initialSlide:1,
+
         mousewheel: {
             invert: true,
         },
@@ -33,6 +36,8 @@ $(document).ready(function () {
     });
 
     var swiperH2 = new Swiper('.swiper-team-h', {
+        initialSlide:1,
+
         mousewheel: {
             invert: true,
         },

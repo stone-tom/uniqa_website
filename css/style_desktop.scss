@@ -50,10 +50,10 @@ body {
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-  .arrow-down-infos{
+  .arrow-down {
     cursor: pointer ;
     width:200px;
-    height:120px;
+    height:133px;
     position: absolute;
     bottom:0;
   }
@@ -97,9 +97,9 @@ body {
   }
 }
 
-  .arrow-down-infos{
+  .arrow-down {
    width: 250px;
-   height:  150px;
+   height:  166px;
   }
 }
 }
@@ -117,7 +117,7 @@ body {
       }
     }
 
-    .arrow-down-infos{
+    .arrow-down {
       width: 200px;
       height: 120px;
     }
@@ -141,7 +141,7 @@ body {
       }
     }
 
-    .arrow-down-infos{
+    .arrow-down {
       width: 180px;
       height: 108px;
     }
@@ -156,7 +156,22 @@ body {
 //GENERAL INFOS NORMAL
 
 .general-infos {
-  background-color: brown;
+
+  .arrow-up {
+    cursor: pointer ;
+    width:250px;
+    height:166px;
+    position: absolute;
+    top:0;
+  }
+
+  .arrow-down {
+    position: absolute;
+    bottom:0;
+    cursor: pointer;
+    width: 250px;
+    height:166px;
+  }
 
 }
 
@@ -185,6 +200,22 @@ body {
 }
 
 .team {
+
+  .arrow-up {
+    cursor: pointer ;
+    width:250px;
+    height:166px;
+    position: absolute;
+    top:0;
+  }
+
+  .arrow-down {
+    cursor: pointer ;
+    width:250px;
+    height:166px;
+    position: absolute;
+    bottom:0;
+  }
   background-color: teal;
 }
 
@@ -225,5 +256,13 @@ body {
 }
 
 .impressum{
+  .arrow-up {
+    cursor: pointer ;
+    width:250px;
+    height:166px;
+    position: absolute;
+    top:0;
+  }
+
   background-color: purple;
 }
