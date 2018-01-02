@@ -39,9 +39,138 @@ body {
 }
 
 
-.landing-page{
 
+//LANDING PAGE ESSENTIALS
+
+.landing-page{
+  height:100%;
+  width:100%;
+  background-image: url('../assets/imgs/landing-background.JPG');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  .arrow-down-infos{
+    cursor: pointer ;
+    width:200px;
+    height:120px;
+    position: absolute;
+    bottom:0;
+  }
+  .headline{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left:40%;
+
+    h1{
+      display: inline-block;
+      color: #ffffff;
+      font-size: 60px;
+
+
+    }
+    img{
+      position: absolute;
+      top: 10px;
+      left: -230px;
+      height: 200px;
+      width: 200px;
+      display: inline-block;
+    }
+  }
 }
+
+//LANDING PAGE RESPONSIVE
+
+@media screen and (max-width:1080px) and  (min-width: 900px){
+  .landing-page{
+    .headline{
+
+      img{
+        margin-top:-20px;
+        margin-left:20px;
+        height: 180px;
+        width: 180px;
+      }
+      h1{
+        font-size:40px;
+
+      }
+    }
+
+    .arrow-down-infos{
+      width: 180px;
+      height:  108px;
+    }
+  }
+}
+
+@media screen and (max-width:899px) and  (min-width: 700px){
+  .landing-page{
+    .headline{
+
+      img{
+        margin-top:-20px;
+        height: 150px;
+        width: 150px;
+      }
+      h1{
+        font-size:40px;
+      }
+    }
+
+    .arrow-down-infos{
+      width: 160px;
+      height: 96px;
+    }
+  }
+}
+
+@media screen and (max-width:699px) and (min-width: 480px){
+  .landing-page{
+    .headline{
+
+
+      img{
+        margin-top:-20px;
+        height: 120px;
+        width: 120px;
+      }
+      h1{
+        font-size:30px;
+      }
+    }
+
+    .arrow-down-infos{
+      width: 150px;
+      height:  90px;
+    }
+  }
+}
+
+@media screen and (max-width:479px) and  (min-width: 320px)  {
+  .landing-page{
+    .headline{
+
+      img{
+        margin-top: -20px;
+        height: 80px;
+        width: 80px;
+      }
+      h1{
+        font-size:20px;
+      }
+    }
+
+    .arrow-down-infos{
+      width: 100px;
+      height:  60px;
+    }
+  }
+}
+
+
+
 
 
 .general-infos {

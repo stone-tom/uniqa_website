@@ -3,6 +3,7 @@
 html, body {
   position: relative;
   height: 100%;
+  font-family: Arial;
 }
 
 body {
@@ -40,9 +41,119 @@ body {
   align-items: center;
 }
 
+// LANDING PAGE NORMAL
+
 .landing-page{
-  background-color: blue;
+  height:100%;
+  width:100%;
+  background-image: url('../assets/imgs/landing-background.JPG');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  .arrow-down-infos{
+    cursor: pointer ;
+    width:200px;
+    height:120px;
+    position: absolute;
+    bottom:0;
+  }
+  .headline{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    h1{
+      display: inline-block;
+      color: #ffffff;
+      font-size: 60px;
+
+
+    }
+    img{
+      position: absolute;
+      top: 10px;
+      left: -230px;
+      height: 200px;
+      width: 200px;
+      display: inline-block;
+    }
+  }
 }
+
+//LANDING PAGE RESPONSIVE
+
+@media screen and (max-width:3000px) and  (min-width: 1600px){
+.landing-page{
+.headline{
+
+  img{
+    margin-left: -80px;
+    margin-top: -20px;
+    height: 280px;
+    width: 280px;
+  }
+  h1{
+    font-size:70px;
+  }
+}
+
+  .arrow-down-infos{
+   width: 250px;
+   height:  150px;
+  }
+}
+}
+
+@media screen and (max-width:1599px) and  (min-width: 1280px){
+  .landing-page{
+
+      img{
+        height: 250px;
+        width: 250px;
+      }
+      h1{
+        font-size:60px;
+
+      }
+    }
+
+    .arrow-down-infos{
+      width: 200px;
+      height: 120px;
+    }
+  }
+
+
+@media screen and (max-width:1279px) and  (min-width: 1081px){
+  .landing-page{
+    .headline{
+
+
+
+      img{
+        margin-top: -20px;
+        height: 200px;
+        width: 200px;
+      }
+      h1{
+        font-size:50px;
+
+      }
+    }
+
+    .arrow-down-infos{
+      width: 180px;
+      height: 108px;
+    }
+  }
+}
+
+
+
+
+
+
+//GENERAL INFOS NORMAL
 
 .general-infos {
   background-color: brown;

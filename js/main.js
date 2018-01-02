@@ -10,12 +10,15 @@ $(document).ready(function () {
         keyboard:{
             invert:true,
         },
-
+        navigation: {
+            nextEl: '.arrow-down-infos',
+            prevEl: '.arrow-up-landing',
+        },
 
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
-        }
+        },
     });
 
     var swiperH1 = new Swiper('.swiper-info-h', {
