@@ -11,6 +11,21 @@ body {
   margin: 0;
   padding: 0; }
 
+.center {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
 .swiper-container {
   width: 100%;
   height: 100%; }
@@ -103,86 +118,97 @@ body {
     width: 200px; }
   .landing-page .headline h1 {
     font-size: 50px; } }
-.general-infos .general-infos-wrapper {
-  position: relative;
-  width: 75%;
-  height: 75%;
-  background-color: grey;
-  line-height: 0; }
-  .general-infos .general-infos-wrapper .infos-foreword {
+.general-infos {
+  background-color: #e2e2e2; }
+  .general-infos .general-infos-wrapper {
+    position: relative;
+    width: 75%;
+    height: 75%;
+    background-color: grey;
+    line-height: 0; }
+    .general-infos .general-infos-wrapper .infos-foreword {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+      background-color: #005ba9; }
+      .general-infos .general-infos-wrapper .infos-foreword .content {
+        line-height: normal;
+        padding: 5%;
+        color: #fff; }
+        .general-infos .general-infos-wrapper .infos-foreword .content h1 {
+          margin-top: 0; }
+        .general-infos .general-infos-wrapper .infos-foreword .content p {
+          margin: 0;
+          padding: 0; }
+    .general-infos .general-infos-wrapper .infos-times {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 50%;
+      background-color: #ffffff; }
+      .general-infos .general-infos-wrapper .infos-times .content {
+        width: 100%;
+        line-height: normal;
+        margin-top: 10%; }
+        .general-infos .general-infos-wrapper .infos-times .content h1 {
+          margin-top: 0;
+          text-align: center; }
+        .general-infos .general-infos-wrapper .infos-times .content p {
+          margin: 0;
+          padding: 0;
+          text-align: center; }
+        .general-infos .general-infos-wrapper .infos-times .content .day {
+          float: left; }
+        .general-infos .general-infos-wrapper .infos-times .content .time {
+          float: right; }
+        .general-infos .general-infos-wrapper .infos-times .content .day-time-wrapper {
+          padding: 0 23% 15% 23%; }
+    .general-infos .general-infos-wrapper .infos-maps {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+      background-color: #000000; }
+    .general-infos .general-infos-wrapper .infos-contact {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 50%;
+      height: 50%;
+      background-color: #004081; }
+      .general-infos .general-infos-wrapper .infos-contact .content {
+        line-height: normal;
+        padding: 5%;
+        color: #fff; }
+        .general-infos .general-infos-wrapper .infos-contact .content h1 {
+          margin-top: 0; }
+        .general-infos .general-infos-wrapper .infos-contact .content p {
+          margin: 0;
+          padding: 0; }
+  .general-infos .nav-line-top {
+    width: 100%;
+    height: 12.5%;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    background-color: blue; }
-  .general-infos .general-infos-wrapper .infos-times {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 50%;
-    background-color: green; }
-  .general-infos .general-infos-wrapper .infos-maps {
+    top: 0; }
+    .general-infos .nav-line-top .arrow-up {
+      cursor: pointer;
+      height: 100%;
+      width: auto;
+      position: absolute; }
+  .general-infos .nav-line-bottom {
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    background-color: red; }
-  .general-infos .general-infos-wrapper .infos-contact {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;
-    height: 50%;
-    background-color: yellow; }
-.general-infos .nav-line-top {
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  width: 100%;
-  height: 12.5%;
-  position: absolute;
-  top: 0; }
-  .general-infos .nav-line-top .arrow-up {
-    cursor: pointer;
-    height: 100%;
-    width: auto;
-    position: absolute; }
-.general-infos .nav-line-bottom {
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 12.5%; }
-  .general-infos .nav-line-bottom .arrow-down {
-    position: absolute;
-    cursor: pointer;
-    height: 100%;
-    width: auto; }
+    width: 100%;
+    height: 12.5%; }
+    .general-infos .nav-line-bottom .arrow-down {
+      position: absolute;
+      cursor: pointer;
+      height: 100%;
+      width: auto; }
 
 /*
 
@@ -294,19 +320,6 @@ body {
   display: none; }
 
 .impressum .nav-line-top {
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
   width: 100%;
   height: 12.5%;
   position: absolute;

@@ -16,10 +16,7 @@ $(document).ready(function () {
             prevEl: '.arrow-up',
         },
 
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+
     });
 
     var swiperH1 = new Swiper('.swiper-info-h', {
