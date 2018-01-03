@@ -43,195 +43,14 @@ body {
 
 // LANDING PAGE NORMAL
 
-.landing-page{
-  height:100%;
-  width:100%;
+.landing-page {
+  height: 100%;
+  width: 100%;
   background-image: url('../assets/imgs/landing-background.JPG');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
-  .arrow-down {
-    cursor: pointer ;
-    width:200px;
-    height:133px;
-    position: absolute;
-    bottom:0;
-  }
-  .headline{
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    h1{
-      display: inline-block;
-      color: #ffffff;
-      font-size: 60px;
-
-
-    }
-    img{
-      position: absolute;
-      top: 10px;
-      left: -230px;
-      height: 200px;
-      width: 200px;
-      display: inline-block;
-    }
-  }
-}
-
-//LANDING PAGE RESPONSIVE
-
-
-@media screen and (max-width:3000px) and  (min-width: 1600px){
-.landing-page{
-.headline{
-
-  img{
-    margin-left: -80px;
-    margin-top: -20px;
-    height: 280px;
-    width: 280px;
-  }
-  h1{
-    font-size:70px;
-  }
-}
-
-  .arrow-down {
-   width: 250px;
-   height:  166px;
-  }
-}
-}
-
-@media screen and (max-width:1599px) and  (min-width: 1280px){
-  .landing-page{
-
-      img{
-        height: 250px;
-        width: 250px;
-      }
-      h1{
-        font-size:60px;
-
-      }
-    }
-
-    .arrow-down {
-      width: 200px;
-      height: 120px;
-    }
-  }
-
-@media screen and (max-width:1279px) and  (min-width: 1081px){
-  .landing-page{
-    .headline{
-
-
-
-      img{
-        margin-top: -20px;
-        height: 200px;
-        width: 200px;
-      }
-      h1{
-        font-size:50px;
-
-      }
-    }
-
-    .arrow-down {
-      width: 180px;
-      height: 108px;
-    }
-  }
-}
-
-
-
-
-
-
-//GENERAL INFOS NORMAL
-
-.general-infos {
-  .general-infos-wrapper{
-  position:relative;
-  width: 75%;
-  height:75%;
-  background-color: grey;
-  line-height: 0;
-
-.infos-foreword{
-  position:absolute;
-  top:0;
-  left:0;
-  width:50%;
-  height:50%;
-  background-color: blue;
-
-
-}
-.infos-times{
-  position:absolute;
-  top:0;
-  right:0;
-  width:50%;
-  height:50%;
-  background-color: green;
-}
-.infos-maps{
-  position:absolute;
-  bottom:0;
-  left:0;
-  width:50%;
-  height:50%;
-  background-color: red;
-
-
-}
-.infos-contact{
-  position:absolute;
-  bottom:0;
-  right:0;
-  width:50%;
-  height:50%;
-  background-color: yellow;
-
-
-}
-
-
-}
-.nav-line-top{
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  width:100%;
-  height: 12.5%;
-  position:absolute;
-  top:0;
-
-  .arrow-up {
-    cursor: pointer ;
-    height: 100%;
-    width:auto;
-    position: absolute;
-
-  }
-}
-  .nav-line-bottom{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .nav-line-bottom {
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -245,74 +64,216 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    position:absolute;
-    bottom:0;
-    width:100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     height: 12.5%;
 
+    .arrow-down {
+      position: absolute;
+      cursor: pointer;
+      height: 100%;
+      width: auto;
 
+    }
+  }
+  .headline {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    h1 {
+      display: inline-block;
+      color: #ffffff;
+      font-size: 60px;
 
-     .arrow-down {
-     position: absolute;
-     cursor: pointer;
-     height:100%;
-     width:auto;
-
-
-
-
-
-     }
+    }
+    img {
+      position: absolute;
+      top: 10px;
+      left: -230px;
+      height: 200px;
+      width: 200px;
+      display: inline-block;
+    }
   }
 }
+
+//LANDING PAGE RESPONSIVE
+
+@media screen and (max-width: 3000px) and (min-width: 1600px) {
+  .landing-page {
+    .headline {
+
+      img {
+        margin-left: -80px;
+        margin-top: -20px;
+        height: 280px;
+        width: 280px;
+      }
+      h1 {
+        font-size: 70px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1599px) and (min-width: 1280px) {
+  .landing-page {
+
+    img {
+      height: 250px;
+      width: 250px;
+    }
+    h1 {
+      font-size: 60px;
+
+    }
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1081px) {
+  .landing-page {
+    .headline {
+
+      img {
+        margin-top: -20px;
+        height: 200px;
+        width: 200px;
+      }
+      h1 {
+        font-size: 50px;
+
+      }
+    }
+  }
+}
+
+//GENERAL INFOS NORMAL
+
+.general-infos {
+  .general-infos-wrapper {
+    position: relative;
+    width: 75%;
+    height: 75%;
+    background-color: grey;
+    line-height: 0;
+
+    .infos-foreword {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+      background-color: blue;
+
+    }
+    .infos-times {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 50%;
+      background-color: green;
+    }
+    .infos-maps {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+      background-color: red;
+
+    }
+    .infos-contact {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 50%;
+      height: 50%;
+      background-color: yellow;
+
+    }
+
+  }
+  .nav-line-top {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
+    position: absolute;
+    top: 0;
+
+    .arrow-up {
+      cursor: pointer;
+      height: 100%;
+      width: auto;
+      position: absolute;
+
+    }
+  }
+  .nav-line-bottom {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 12.5%;
+
+    .arrow-down {
+      position: absolute;
+      cursor: pointer;
+      height: 100%;
+      width: auto;
+
+    }
+  }
+}
+
 //GENERAL-INFOS RESPONSIVE
 /*
 
 @media screen and (max-width:3000px) and  (min-width: 1600px){
   .general-infos{
-
-
-    .arrow-down {
-      width: 250px;
-      height:  166px;
-    }
-    .arrow-up {
-      width: 250px;
-      height:  166px;
-    }
-  }
+}
 }
 
 @media screen and (max-width:1599px) and  (min-width: 1280px){
   .general-infos{
 
-
-  .arrow-down {
-    width: 190px;
-    height: 126px;
-  }
-    .arrow-up {
-    width: 190px;
-    height: 126px;
-  }
 }
 }
 
 @media screen and (max-width:1279px) and  (min-width: 1081px){
   .general-infos{
 
-    .arrow-down {
-      width: 180px;
-      height: 108px;
-    }.arrow-up {
-      width: 180px;
-      height: 108px;
-    }
+
   }
 }
 */
 // DONT TOUCH
-
 
 .foreword {
   background-color: red;
@@ -340,24 +301,63 @@ body {
 
 .team {
 
-  .arrow-up {
-    cursor: pointer ;
-    width:250px;
-    height:166px;
+  .nav-line-top {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
     position: absolute;
-    top:0;
-  }
+    top: 0;
 
-  .arrow-down {
-    cursor: pointer ;
-    width:250px;
-    height:166px;
+    .arrow-up {
+      cursor: pointer;
+      height: 100%;
+      width: auto;
+      position: absolute;
+
+    }
+
+  }
+  .nav-line-bottom {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
     position: absolute;
-    bottom:0;
+    bottom: 0;
+    width: 100%;
+    height: 12.5%;
+
+    .arrow-down {
+      position: absolute;
+      cursor: pointer;
+      height: 100%;
+      width: auto;
+
+    }
   }
   background-color: teal;
 }
-
 
 // DONT TOUCH
 .andreas {
@@ -385,7 +385,7 @@ body {
 }
 
 .silvia {
-  background-color:yellow;
+  background-color: yellow;
   display: none;
 
 }
@@ -396,14 +396,34 @@ body {
 
 }
 
-.impressum{
-  .arrow-up {
-    cursor: pointer ;
-    width:250px;
-    height:166px;
+.impressum {
+  .nav-line-top {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
     position: absolute;
-    top:0;
-  }
+    top: 0;
 
-  background-color: purple;
-}
+    .arrow-up {
+      cursor: pointer;
+      height: 100%;
+      width: auto;
+      position: absolute;
+
+    }
+
+
+
+}}

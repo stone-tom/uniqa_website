@@ -41,12 +41,29 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  .landing-page .arrow-down {
-    cursor: pointer;
-    width: 200px;
-    height: 120px;
+  .landing-page .nav-line-bottom {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
     position: absolute;
-    bottom: 0; }
+    bottom: 0;
+    width: 100%;
+    height: 12.5%; }
+    .landing-page .nav-line-bottom .arrow-down {
+      position: absolute;
+      cursor: pointer;
+      height: 100%;
+      width: auto; }
   .landing-page .headline {
     display: inline-block;
     position: absolute;
@@ -71,10 +88,7 @@ body {
     height: 180px;
     width: 180px; }
   .landing-page .headline h1 {
-    font-size: 40px; }
-  .landing-page .arrow-down {
-    width: 130px;
-    height: 78px; } }
+    font-size: 40px; } }
 @media screen and (max-width: 899px) and (min-width: 700px) {
   .landing-page {
     margin-left: -40px; }
@@ -84,11 +98,7 @@ body {
       height: 150px;
       width: 150px; }
     .landing-page .headline h1 {
-      font-size: 40px; }
-    .landing-page .arrow-down {
-      width: 130px;
-      height: 78px;
-      margin-left: 20px; } }
+      font-size: 40px; } }
 @media screen and (max-width: 699px) and (min-width: 480px) {
   .landing-page .headline img {
     margin-top: -30px;
@@ -96,10 +106,7 @@ body {
     height: 120px;
     width: 120px; }
   .landing-page .headline h1 {
-    font-size: 25px; }
-  .landing-page .arrow-down {
-    width: 100px;
-    height: 60px; } }
+    font-size: 25px; } }
 @media screen and (max-width: 479px) and (min-width: 320px) {
   .landing-page {
     margin-left: -25px; }
@@ -109,10 +116,7 @@ body {
       height: 80px;
       width: 80px; }
     .landing-page .headline h1 {
-      font-size: 18px; }
-    .landing-page .arrow-down {
-      width: 100px;
-      height: 60px; } }
+      font-size: 18px; } }
 @media screen and (max-width: 319px) and (min-width: 0px) {
   .landing-page {
     margin-left: -25px; }
@@ -122,11 +126,7 @@ body {
       height: 55px;
       width: 55px; }
     .landing-page .headline h1 {
-      font-size: 15px; }
-    .landing-page .arrow-down {
-      margin-left: 10px;
-      width: 100px;
-      height: 60px; } }
+      font-size: 15px; } }
 .general-infos {
   background-color: brown;
   display: none; }

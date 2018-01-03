@@ -42,12 +42,29 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  .landing-page .arrow-down {
-    cursor: pointer;
-    width: 200px;
-    height: 133px;
+  .landing-page .nav-line-bottom {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
     position: absolute;
-    bottom: 0; }
+    bottom: 0;
+    width: 100%;
+    height: 12.5%; }
+    .landing-page .nav-line-bottom .arrow-down {
+      position: absolute;
+      cursor: pointer;
+      height: 100%;
+      width: auto; }
   .landing-page .headline {
     display: inline-block;
     position: absolute;
@@ -72,30 +89,20 @@ body {
     height: 280px;
     width: 280px; }
   .landing-page .headline h1 {
-    font-size: 70px; }
-  .landing-page .arrow-down {
-    width: 250px;
-    height: 166px; } }
+    font-size: 70px; } }
 @media screen and (max-width: 1599px) and (min-width: 1280px) {
   .landing-page img {
     height: 250px;
     width: 250px; }
   .landing-page h1 {
-    font-size: 60px; }
-
-  .arrow-down {
-    width: 200px;
-    height: 120px; } }
+    font-size: 60px; } }
 @media screen and (max-width: 1279px) and (min-width: 1081px) {
   .landing-page .headline img {
     margin-top: -20px;
     height: 200px;
     width: 200px; }
   .landing-page .headline h1 {
-    font-size: 50px; }
-  .landing-page .arrow-down {
-    width: 180px;
-    height: 108px; } }
+    font-size: 50px; } }
 .general-infos .general-infos-wrapper {
   position: relative;
   width: 75%;
@@ -181,44 +188,19 @@ body {
 
 @media screen and (max-width:3000px) and  (min-width: 1600px){
   .general-infos{
-
-
-    .arrow-down {
-      width: 250px;
-      height:  166px;
-    }
-    .arrow-up {
-      width: 250px;
-      height:  166px;
-    }
-  }
+}
 }
 
 @media screen and (max-width:1599px) and  (min-width: 1280px){
   .general-infos{
 
-
-  .arrow-down {
-    width: 190px;
-    height: 126px;
-  }
-    .arrow-up {
-    width: 190px;
-    height: 126px;
-  }
 }
 }
 
 @media screen and (max-width:1279px) and  (min-width: 1081px){
   .general-infos{
 
-    .arrow-down {
-      width: 180px;
-      height: 108px;
-    }.arrow-up {
-      width: 180px;
-      height: 108px;
-    }
+
   }
 }
 */
@@ -240,18 +222,52 @@ body {
 
 .team {
   background-color: teal; }
-  .team .arrow-up {
-    cursor: pointer;
-    width: 250px;
-    height: 166px;
+  .team .nav-line-top {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
     position: absolute;
     top: 0; }
-  .team .arrow-down {
-    cursor: pointer;
-    width: 250px;
-    height: 166px;
+    .team .nav-line-top .arrow-up {
+      cursor: pointer;
+      height: 100%;
+      width: auto;
+      position: absolute; }
+  .team .nav-line-bottom {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
     position: absolute;
-    bottom: 0; }
+    bottom: 0;
+    width: 100%;
+    height: 12.5%; }
+    .team .nav-line-bottom .arrow-down {
+      position: absolute;
+      cursor: pointer;
+      height: 100%;
+      width: auto; }
 
 .andreas {
   background-color: orange;
@@ -277,13 +293,28 @@ body {
   background-color: purple;
   display: none; }
 
-.impressum {
-  background-color: purple; }
-  .impressum .arrow-up {
+.impressum .nav-line-top {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100%;
+  height: 12.5%;
+  position: absolute;
+  top: 0; }
+  .impressum .nav-line-top .arrow-up {
     cursor: pointer;
-    width: 250px;
-    height: 166px;
-    position: absolute;
-    top: 0; }
+    height: 100%;
+    width: auto;
+    position: absolute; }
 
 /*# sourceMappingURL=style_desktop.css.map */
