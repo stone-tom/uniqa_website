@@ -378,7 +378,6 @@ body {
     }
   }
 }
-
 @media screen and (max-width: 1599px) and (min-width: 1280px) {
   .general-infos {
     .general-infos-wrapper{
@@ -423,7 +422,6 @@ body {
     }
   }
 }
-
 @media screen and (max-width: 1279px) and (min-width: 1081px) {
   .general-infos {
     .general-infos-wrapper{
@@ -501,30 +499,519 @@ body {
 .team-page {
 
   .team-wrapper{
+    position: relative;
     height: 75%;
     width: 75%;
     background-color: red;
+
+    .content{
+      position: fixed;
+      height: 100%;
+      width: auto;
+      background-color: green;
+    }
+
+  .team-desktop{
+
+      text-align: center;
+      vertical-align: middle;
+      background-color: #005AA7;
+      width: 240px;
+      height: 250px;
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+      position: absolute;
+      top: 335px;
+      left: 230px;
+      h1 {
+        padding-top: 23%;
+        color: #fff;
+
+    }
+    }
   .andreas-desktop{
+      background-image: url('../assets/imgs/Andreas.JPG');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center bottom 25px;
+      width: 240px;
+      height: 250px;
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+      position: absolute;
+      top: 230px;
+      left: 420px;
+      .andreas-hovered {
+        width: 240px;
+        height: 250px;
+        -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+        clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+        background-color: rgba(0, 90, 167, 0.76);
+        opacity: 0;
+        -webkit-transition: opacity .5s;
+        -moz-transition: opacity .5s;
+        -ms-transition: opacity .5s;
+        -o-transition: opacity .5s;
+        transition: opacity .5s;
+        h1 {
+          padding-top: 20%;
+          margin: 0;
+          font-size: 20px;
+          color: #fff;
+          text-align: center;
+
+        }
+
+        .mail {
+          margin-left: 24px;
+          text-align: center;
+          display: inline;
+          p {
+            display: inline;
+            font-size: 15px;
+            color: #fff;
+            vertical-align: middle;
+            i {
+              color: #fff;
+              padding-right: 5px;
+              vertical-align: middle;
+              display: inline;
+              font-size: 20px;
+            }
+          }
+
+        }
+        .phone {
+          margin-left: 40px;
+          text-align: center;
+          display: inline;
+          padding-top: 10px;
+
+          p {
+            display: inline;
+            font-size: 13px;
+            color: #fff;
+            vertical-align: middle;
+            i {
+              color: #fff;
+              padding-right: 2px;
+              vertical-align: middle;
+              display: inline;
+              font-size: 20px;
+
+            }
+          }
+        }
+      }
+      &:hover .andreas-hovered {
+        opacity: 1;
+      }
 
   }
 
   .felix-desktop{
 
+      background-image: url('../assets/imgs/Felix.JPG');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom 20px left -50px;
+      width: 240px;
+      height: 250px;
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+      position: absolute;
+      left: 610px;
+      top: 125px;
+
+      .felix-hovered {
+        width: 240px;
+        height: 250px;
+        -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+        clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+        background-color: rgba(0, 90, 167, 0.76);
+        opacity: 0;
+        -webkit-transition: opacity .5s;
+        -moz-transition: opacity .5s;
+        -ms-transition: opacity .5s;
+        -o-transition: opacity .5s;
+        transition: opacity .5s;
+        h1 {
+          padding-top: 20%;
+          margin: 0;
+          font-size: 20px;
+          color: #fff;
+          text-align: center;
+
+        }
+
+        .mail {
+          margin-left: 24px;
+          text-align: center;
+          display: inline;
+          p {
+            display: inline;
+            font-size: 15px;
+            color: #fff;
+            vertical-align: middle;
+            i {
+              color: #fff;
+              padding-right: 5px;
+              vertical-align: middle;
+              display: inline;
+              font-size: 20px;
+            }
+          }
+
+        }
+        .phone {
+          margin-left: 40px;
+          text-align: center;
+          display: inline;
+          padding-top: 10px;
+
+          p {
+            display: inline;
+            font-size: 13px;
+            color: #fff;
+            vertical-align: middle;
+            i {
+              color: #fff;
+              padding-right: 2px;
+              vertical-align: middle;
+              display: inline;
+              font-size: 20px;
+
+            }
+          }
+        }
+      }
+      &:hover .felix-hovered {
+        opacity: 1;
+      }
+
+
   }
 
   .stefan-desktop{
+    background-image: url('../assets/imgs/Stefan.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 25px right -50px;
+    width: 240px;
+    height: 250px;
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+    position: absolute;
+    left: 800px;
+    top: 230px;
 
+    .stefan-hovered {
+      width: 240px;
+      height: 250px;
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+      background-color: rgba(0, 90, 167, 0.76);
+      opacity: 0;
+      -webkit-transition: opacity .5s;
+      -moz-transition: opacity .5s;
+      -ms-transition: opacity .5s;
+      -o-transition: opacity .5s;
+      transition: opacity .5s;
+      h1 {
+        padding-top: 20%;
+        margin: 0;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+
+      }
+
+      .mail {
+        margin-left: 24px;
+        text-align: center;
+        display: inline;
+        p {
+          display: inline;
+          font-size: 15px;
+          color: #fff;
+          vertical-align: middle;
+          i {
+            color: #fff;
+            padding-right: 5px;
+            vertical-align: middle;
+            display: inline;
+            font-size: 20px;
+          }
+        }
+
+      }
+      .phone {
+        margin-left: 40px;
+        text-align: center;
+        display: inline;
+        padding-top: 10px;
+
+        p {
+          display: inline;
+          font-size: 13px;
+          color: #fff;
+          vertical-align: middle;
+          i {
+            color: #fff;
+            padding-right: 2px;
+            vertical-align: middle;
+            display: inline;
+            font-size: 20px;
+
+          }
+        }
+      }
+    }
+    &:hover .stefan-hovered {
+      opacity: 1;
+    }
   }
 
   .tanja-desktop{
+    background-image: url('../assets/imgs/Tanja.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 10px;
+    width: 240px;
+    height: 250px;
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+    position: absolute;
+    top: 442px;
+    left: 800px;
+
+    .tanja-hovered {
+      width: 240px;
+      height: 250px;
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+      background-color: rgba(0, 90, 167, 0.76);
+      opacity: 0;
+      -webkit-transition: opacity .5s;
+      -moz-transition: opacity .5s;
+      -ms-transition: opacity .5s;
+      -o-transition: opacity .5s;
+      transition: opacity .5s;
+      h1 {
+        padding-top: 20%;
+        margin: 0;
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+
+      }
+
+      .mail {
+        margin-left: 18px;
+        text-align: center;
+        display: inline;
+        p {
+          display: inline;
+          font-size: 13px;
+          color: #fff;
+          vertical-align: middle;
+          i {
+            color: #fff;
+            padding-right: 5px;
+            vertical-align: middle;
+            display: inline;
+            font-size: 20px;
+          }
+        }
+
+      }
+      .phone {
+        margin-left: 40px;
+        text-align: center;
+        display: inline;
+        padding-top: 10px;
+
+        p {
+          display: inline;
+          font-size: 13px;
+          color: #fff;
+          vertical-align: middle;
+          i {
+            color: #fff;
+            padding-right: 2px;
+            vertical-align: middle;
+            display: inline;
+            font-size: 20px;
+
+          }
+        }
+      }
+    }
+    &:hover .tanja-hovered {
+      opacity: 1;
+    }
 
   }
 
   .silvia-desktop{
+    background-image: url('../assets/imgs/Silvia.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 240px;
+    height: 250px;
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+    position: absolute;
+    top: 335px;
+    left: 610px;
+
+    .silvia-hovered {
+      width: 240px;
+      height: 250px;
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+      background-color: rgba(0, 90, 167, 0.76);
+      opacity: 0;
+      -webkit-transition: opacity .5s;
+      -moz-transition: opacity .5s;
+      -ms-transition: opacity .5s;
+      -o-transition: opacity .5s;
+      transition: opacity .5s;
+      h1 {
+        padding-top: 20%;
+        margin: 0;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+
+      }
+
+      .mail {
+        margin-left: 18px;
+        text-align: center;
+        display: inline;
+        p {
+          display: inline;
+          font-size: 13px;
+          color: #fff;
+          vertical-align: middle;
+          i {
+            color: #fff;
+            padding-right: 5px;
+            vertical-align: middle;
+            display: inline;
+            font-size: 20px;
+          }
+        }
+
+      }
+      .phone {
+        margin-left: 40px;
+        text-align: center;
+        display: inline;
+        padding-top: 10px;
+
+        p {
+          display: inline;
+          font-size: 13px;
+          color: #fff;
+          vertical-align: middle;
+          i {
+            color: #fff;
+            padding-right: 2px;
+            vertical-align: middle;
+            display: inline;
+            font-size: 20px;
+
+          }
+        }
+      }
+    }
+    &:hover .silvia-hovered {
+      opacity: 1;
+    }
+
   }
 
   .jasminke-desktop{
+    background-image: url('../assets/imgs/Jasminke.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 25px;
+    width: 240px;
+    height: 250px;
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+    position: absolute;
+    left: 420px;
+    top: 442px;
 
+    .jasminke-hovered {
+      width: 240px;
+      height: 250px;
+      -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+      clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+      background-color: rgba(0, 90, 167, 0.76);
+      opacity: 0;
+      -webkit-transition: opacity .5s;
+      -moz-transition: opacity .5s;
+      -ms-transition: opacity .5s;
+      -o-transition: opacity .5s;
+      transition: opacity .5s;
+      h1 {
+        padding-top: 20%;
+        margin: 0;
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+
+      }
+
+      .mail {
+        margin-left: 18px;
+        text-align: center;
+        display: inline;
+        p {
+          display: inline;
+          font-size: 13px;
+          color: #fff;
+          vertical-align: middle;
+          i {
+            color: #fff;
+            padding-right: 5px;
+            vertical-align: middle;
+            display: inline;
+            font-size: 20px;
+          }
+        }
+
+      }
+      .phone {
+        margin-left: 40px;
+        text-align: center;
+        display: inline;
+        padding-top: 10px;
+
+        p {
+          display: inline;
+          font-size: 13px;
+          color: #fff;
+          vertical-align: middle;
+          i {
+            color: #fff;
+            padding-right: 2px;
+            vertical-align: middle;
+            display: inline;
+            font-size: 20px;
+
+          }
+        }
+      }
+    }
+    &:hover .jasminke-hovered {
+      opacity: 1;
+    }
   }
   }
 
