@@ -34,7 +34,6 @@ body {
   height: 100%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -121,6 +120,9 @@ body {
 .general-infos {
   background-color: #e2e2e2; }
   .general-infos .general-infos-wrapper {
+    -webkit-box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
+    box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
     position: relative;
     width: 75%;
     height: 75%;
@@ -150,22 +152,9 @@ body {
       height: 50%;
       background-color: #ffffff; }
       .general-infos .general-infos-wrapper .infos-times .content {
-        width: 100%;
-        line-height: normal;
-        margin-top: 10%; }
-        .general-infos .general-infos-wrapper .infos-times .content h1 {
-          margin-top: 0;
-          text-align: center; }
-        .general-infos .general-infos-wrapper .infos-times .content p {
-          margin: 0;
-          padding: 0;
-          text-align: center; }
-        .general-infos .general-infos-wrapper .infos-times .content .day {
-          float: left; }
-        .general-infos .general-infos-wrapper .infos-times .content .time {
-          float: right; }
-        .general-infos .general-infos-wrapper .infos-times .content .day-time-wrapper {
-          padding: 0 23% 15% 23%; }
+        line-height: normal; }
+        .general-infos .general-infos-wrapper .infos-times .content table td {
+          font-size: 30px; }
     .general-infos .general-infos-wrapper .infos-maps {
       position: absolute;
       bottom: 0;
@@ -210,31 +199,71 @@ body {
       height: 100%;
       width: auto; }
 
-/*
-
-@media screen and (max-width:3000px) and  (min-width: 1600px){
-  .general-infos{
-}
-}
-
-@media screen and (max-width:1599px) and  (min-width: 1280px){
-  .general-infos{
-
-}
-}
-
-@media screen and (max-width:1279px) and  (min-width: 1081px){
-  .general-infos{
-
-
-  }
-}
-*/
+@media screen and (max-width: 3000px) and (min-width: 1921px) {
+  .general-infos .general-infos-wrapper .infos-foreword .content h1 {
+    font-size: 50px; }
+  .general-infos .general-infos-wrapper .infos-foreword .content p {
+    font-size: 32px; }
+  .general-infos .general-infos-wrapper .infos-times .content {
+    margin-top: -5%; }
+    .general-infos .general-infos-wrapper .infos-times .content tr td {
+      font-size: 32px; }
+    .general-infos .general-infos-wrapper .infos-times .content h1 {
+      font-size: 50px; }
+  .general-infos .general-infos-wrapper .infos-contact .content h1 {
+    font-size: 50px; }
+  .general-infos .general-infos-wrapper .infos-contact .content p {
+    font-size: 32px; } }
+@media screen and (max-width: 1920px) and (min-width: 1600px) {
+  .general-infos .general-infos-wrapper .infos-foreword .content h1 {
+    font-size: 40px; }
+  .general-infos .general-infos-wrapper .infos-foreword .content p {
+    font-size: 25px; }
+  .general-infos .general-infos-wrapper .infos-times .content {
+    margin-top: -3%; }
+    .general-infos .general-infos-wrapper .infos-times .content tr td {
+      font-size: 27px; }
+    .general-infos .general-infos-wrapper .infos-times .content h1 {
+      font-size: 40px; }
+  .general-infos .general-infos-wrapper .infos-contact .content h1 {
+    font-size: 40px; }
+  .general-infos .general-infos-wrapper .infos-contact .content p {
+    font-size: 27px; } }
+@media screen and (max-width: 1599px) and (min-width: 1280px) {
+  .general-infos .general-infos-wrapper .infos-foreword .content h1 {
+    font-size: 35px; }
+  .general-infos .general-infos-wrapper .infos-foreword .content p {
+    font-size: 20px; }
+  .general-infos .general-infos-wrapper .infos-times .content {
+    margin-top: -3%; }
+    .general-infos .general-infos-wrapper .infos-times .content tr td {
+      font-size: 22px; }
+    .general-infos .general-infos-wrapper .infos-times .content h1 {
+      font-size: 35px; }
+  .general-infos .general-infos-wrapper .infos-contact .content h1 {
+    font-size: 35px; }
+  .general-infos .general-infos-wrapper .infos-contact .content p {
+    font-size: 22px; } }
+@media screen and (max-width: 1279px) and (min-width: 1081px) {
+  .general-infos .general-infos-wrapper .infos-foreword .content h1 {
+    font-size: 25px; }
+  .general-infos .general-infos-wrapper .infos-foreword .content p {
+    font-size: 18px; }
+  .general-infos .general-infos-wrapper .infos-times .content {
+    margin-top: -3%; }
+    .general-infos .general-infos-wrapper .infos-times .content tr td {
+      font-size: 20px; }
+    .general-infos .general-infos-wrapper .infos-times .content h1 {
+      font-size: 25px; }
+  .general-infos .general-infos-wrapper .infos-contact .content h1 {
+    font-size: 25px; }
+  .general-infos .general-infos-wrapper .infos-contact .content p {
+    font-size: 20px; } }
 .foreword {
   background-color: red;
   display: none; }
 
-.times {
+.opening-hours {
   background-color: blue;
   display: none; }
 
@@ -246,76 +275,54 @@ body {
   background-color: yellow;
   display: none; }
 
-.team {
+.team-page {
   background-color: teal; }
-  .team .nav-line-top {
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+  .team-page .team-wrapper {
+    height: 75%;
+    width: 75%;
+    background-color: red; }
+  .team-page .nav-line-top {
     width: 100%;
     height: 12.5%;
     position: absolute;
     top: 0; }
-    .team .nav-line-top .arrow-up {
+    .team-page .nav-line-top .arrow-up {
       cursor: pointer;
       height: 100%;
       width: auto;
       position: absolute; }
-  .team .nav-line-bottom {
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+  .team-page .nav-line-bottom {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 12.5%; }
-    .team .nav-line-bottom .arrow-down {
+    .team-page .nav-line-bottom .arrow-down {
       position: absolute;
       cursor: pointer;
       height: 100%;
       width: auto; }
 
-.andreas {
+.andreas-mobile {
   background-color: orange;
   display: none; }
 
-.felix {
+.felix-mobile {
   background-color: grey;
   display: none; }
 
-.stefan {
+.stefan-mobile {
   background-color: green;
   display: none; }
 
-.tanja {
+.tanja-mobile {
   background-color: blue;
   display: none; }
 
-.silvia {
+.silvia-mobile {
   background-color: yellow;
   display: none; }
 
-.jasminke {
+.jasminke-mobile {
   background-color: purple;
   display: none; }
 
