@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02eba058-c277-4121-ac27-95393162162f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/arrow-down-team-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/arrow-up-landing-white.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_desktop.css" afterPath="$PROJECT_DIR$/css/style_desktop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_desktop.css.map" afterPath="$PROJECT_DIR$/css/style_desktop.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_desktop.scss" afterPath="$PROJECT_DIR$/css/style_desktop.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.css" afterPath="$PROJECT_DIR$/css/style_mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.css.map" afterPath="$PROJECT_DIR$/css/style_mobile.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.scss" afterPath="$PROJECT_DIR$/css/style_mobile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="uniqa_website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="168" column="123" selection-start-line="168" selection-start-column="123" selection-end-line="168" selection-end-column="123" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -79,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_mobile.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style_mobile.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style_mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+            <state relative-caret-position="-114">
+              <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
               <folding>
                 <element signature="e#11#52#0" expanded="false" />
                 <element signature="e#59#204#0" expanded="false" />
@@ -94,7 +94,7 @@
                 <element signature="e#3162#3393#0" expanded="false" />
                 <element signature="e#3454#3686#0" expanded="false" />
                 <element signature="e#3706#3753#0" expanded="false" />
-                <element signature="e#3933#3979#0" expanded="false" />
+                <element signature="e#3943#3989#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,10 +108,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/style_desktop.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/style_mobile.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -201,6 +201,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -216,13 +220,13 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/imgs" />
-      <recent name="$PROJECT_DIR$/assets/icons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/icons" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/imgs" />
+      <recent name="$PROJECT_DIR$/assets/icons" />
     </key>
   </component>
   <component name="RunManager">
@@ -289,12 +293,12 @@
       <workItem from="1514542125585" duration="3517000" />
       <workItem from="1514841961781" duration="43160000" />
       <workItem from="1515076354010" duration="59000" />
-      <workItem from="1515076536595" duration="7783000" />
+      <workItem from="1515076536595" duration="9234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54519000" />
+    <option name="totallyTimeSpent" value="55970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -411,7 +415,7 @@
             <element signature="e#3162#3393#0" expanded="false" />
             <element signature="e#3454#3686#0" expanded="false" />
             <element signature="e#3706#3753#0" expanded="false" />
-            <element signature="e#3933#3979#0" expanded="false" />
+            <element signature="e#3943#3989#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -473,7 +477,7 @@
             <element signature="e#3162#3393#0" expanded="false" />
             <element signature="e#3454#3686#0" expanded="false" />
             <element signature="e#3706#3753#0" expanded="false" />
-            <element signature="e#3933#3979#0" expanded="false" />
+            <element signature="e#3943#3989#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -519,25 +523,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style_desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -562,10 +547,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+        <state relative-caret-position="-114">
+          <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
           <folding>
             <element signature="e#11#52#0" expanded="false" />
             <element signature="e#59#204#0" expanded="false" />
@@ -576,7 +569,18 @@
             <element signature="e#3162#3393#0" expanded="false" />
             <element signature="e#3454#3686#0" expanded="false" />
             <element signature="e#3706#3753#0" expanded="false" />
-            <element signature="e#3933#3979#0" expanded="false" />
+            <element signature="e#3943#3989#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="168" column="123" selection-start-line="168" selection-start-column="123" selection-end-line="168" selection-end-column="123" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

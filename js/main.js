@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 
     var swiperV = new Swiper('.swiper-general-v', {
-        initialSlide:2,
+        initialSlide: 1,
         direction: 'vertical',
         mousewheel: {
             invert: true,
@@ -20,7 +20,7 @@ $(document).ready(function () {
     });
 
     var swiperH1 = new Swiper('.swiper-info-h', {
-        initialSlide:2,
+        initialSlide:0,
 
         mousewheel: {
             invert: true,
@@ -33,7 +33,7 @@ $(document).ready(function () {
     });
 
     var swiperH2 = new Swiper('.swiper-team-h', {
-        initialSlide:2,
+        initialSlide:0,
 
         mousewheel: {
             invert: true,
