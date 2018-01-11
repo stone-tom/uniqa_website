@@ -34,9 +34,24 @@ body {
   -webkit-align-items: center;
   align-items: center; }
 
+.center {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
 .landing-page {
-  height: 100%;
-  width: 100%;
+  height: 2160px;
+  width: 3840px;
   background-image: url("../assets/imgs/landing-background.JPG");
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,7 +103,7 @@ body {
     height: 180px;
     width: 180px; }
   .landing-page .headline h1 {
-    font-size: 40px; } }
+    font-size: 50px; } }
 @media screen and (max-width: 899px) and (min-width: 700px) {
   .landing-page {
     margin-left: -40px; }
@@ -164,5 +179,27 @@ body {
 
 .jasminke {
   background-color: purple; }
+
+.nav-line-top {
+  width: 100%;
+  height: 12.5%;
+  position: absolute;
+  top: 0; }
+  .nav-line-top .arrow-up {
+    cursor: pointer;
+    height: 100%;
+    width: auto;
+    position: absolute; }
+
+.nav-line-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 12.5%; }
+  .nav-line-bottom .arrow-down {
+    position: absolute;
+    cursor: pointer;
+    height: 100%;
+    width: auto; }
 
 /*# sourceMappingURL=style_mobile.css.map */
