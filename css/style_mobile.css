@@ -227,11 +227,13 @@ body {
   background-image: url("../assets/imgs/Andreas.JPG");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom 25px;
+  background-position: center bottom;
   width: 240px;
   height: 250px;
   border-radius: 50%;
-  border: 1px solid grey; }
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%; }
 
 .felix-mobile {
   background-color: #005ba9; }

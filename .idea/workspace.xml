@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02eba058-c277-4121-ac27-95393162162f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.css" afterPath="$PROJECT_DIR$/css/style_mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.css.map" afterPath="$PROJECT_DIR$/css/style_mobile.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.scss" afterPath="$PROJECT_DIR$/css/style_mobile.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="uniqa_website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +71,8 @@
       <file leaf-file-name="style_mobile.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style_mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="349" column="21" selection-start-line="349" selection-start-column="21" selection-end-line="349" selection-end-column="21" />
+            <state relative-caret-position="331">
+              <caret line="352" column="17" selection-start-line="352" selection-start-column="17" selection-end-line="352" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -296,12 +294,12 @@
       <workItem from="1518539684245" duration="1385000" />
       <workItem from="1518541370521" duration="3209000" />
       <workItem from="1518695807295" duration="701000" />
-      <workItem from="1518699452776" duration="8557000" />
+      <workItem from="1518699452776" duration="9055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72333000" />
+    <option name="totallyTimeSpent" value="72831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="349" column="21" selection-start-line="349" selection-start-column="21" selection-end-line="349" selection-end-column="21" />
+        <state relative-caret-position="331">
+          <caret line="352" column="17" selection-start-line="352" selection-start-column="17" selection-end-line="352" selection-end-column="17" />
           <folding />
         </state>
       </provider>
