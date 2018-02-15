@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02eba058-c277-4121-ac27-95393162162f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.css" afterPath="$PROJECT_DIR$/css/style_mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.css.map" afterPath="$PROJECT_DIR$/css/style_mobile.css.map" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="241" column="76" selection-start-line="241" selection-start-column="76" selection-end-line="241" selection-end-column="76" />
+            <state relative-caret-position="193">
+              <caret line="382" column="62" selection-start-line="382" selection-start-column="62" selection-end-line="382" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -64,8 +63,8 @@
       <file leaf-file-name="style_desktop.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style_desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="729" column="20" selection-start-line="724" selection-start-column="6" selection-end-line="729" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -74,8 +73,8 @@
       <file leaf-file-name="style_mobile.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style_mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="297" column="6" selection-start-line="297" selection-start-column="6" selection-end-line="297" selection-end-column="6" />
+            <state relative-caret-position="286">
+              <caret line="349" column="21" selection-start-line="349" selection-start-column="21" selection-end-line="349" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -170,7 +169,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imgs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uniqa_website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uniqa_website" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -279,12 +296,12 @@
       <workItem from="1518539684245" duration="1385000" />
       <workItem from="1518541370521" duration="3209000" />
       <workItem from="1518695807295" duration="701000" />
-      <workItem from="1518699452776" duration="5620000" />
+      <workItem from="1518699452776" duration="8557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69396000" />
+    <option name="totallyTimeSpent" value="72333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,24 +526,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="729" column="20" selection-start-line="724" selection-start-column="6" selection-end-line="729" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="241" column="76" selection-start-line="241" selection-start-column="76" selection-end-line="241" selection-end-column="76" />
+        <state relative-caret-position="193">
+          <caret line="382" column="62" selection-start-line="382" selection-start-column="62" selection-end-line="382" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="297" column="6" selection-start-line="297" selection-start-column="6" selection-end-line="297" selection-end-column="6" />
+        <state relative-caret-position="286">
+          <caret line="349" column="21" selection-start-line="349" selection-start-column="21" selection-end-line="349" selection-end-column="21" />
           <folding />
         </state>
       </provider>

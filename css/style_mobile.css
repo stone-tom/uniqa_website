@@ -188,7 +188,7 @@ body {
       -webkit-box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
       -moz-box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
       box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
-      margin-top: 5%;
+      margin-top: 15%;
       padding: 3% 5%;
       display: inline-block;
       background-color: #fff;
@@ -216,10 +216,24 @@ body {
   background-color: teal;
   display: none; }
 
-.andreas {
-  background-color: #005ba9; }
+.mobile-team-info {
+  position: absolute;
+  bottom: 0;
+  background-color: #005ba9;
+  height: 30%;
+  width: 100%; }
 
-.felix {
+.andreas-mobile .mobile-picture-andreas {
+  background-image: url("../assets/imgs/Andreas.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom 25px;
+  width: 240px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid grey; }
+
+.felix-mobile {
   background-color: #005ba9; }
 
 .stefan {
