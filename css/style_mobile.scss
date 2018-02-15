@@ -42,17 +42,15 @@ body {
   align-items: center;
 }
 
-
-
 //LANDING PAGE ESSENTIALS
 
-.landing-page{
+.landing-page {
   height: 2160px;
   width: 3840px;
   background-image: url('../assets/imgs/landing-background.JPG');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   .nav-line-bottom {
     /* Center slide text vertically */
     display: -webkit-box;
@@ -80,20 +78,19 @@ body {
 
     }
   }
-  .headline{
+  .headline {
     display: inline-block;
     position: absolute;
     top: 20%;
-    left:40%;
+    left: 40%;
 
-    h1{
+    h1 {
       display: inline-block;
       color: #ffffff;
       font-size: 60px;
 
-
     }
-    img{
+    img {
       position: absolute;
       top: 10px;
       left: -230px;
@@ -106,175 +103,224 @@ body {
 
 //LANDING PAGE RESPONSIVE
 
-@media screen and (max-width:1080px) and  (min-width: 900px){
-  .landing-page{
-    .headline{
+@media screen and (max-width: 1080px) and (min-width: 900px) {
+  .landing-page {
+    .headline {
 
-      img{
-        margin-top:-20px;
-        margin-left:20px;
+      img {
+        margin-top: -20px;
+        margin-left: 20px;
         height: 180px;
         width: 180px;
       }
-      h1{
-        font-size:50px;
+      h1 {
+        font-size: 50px;
 
       }
     }
 
-
   }
 }
 
-@media screen and (max-width:899px) and  (min-width: 700px){
-  .landing-page{
-    .headline{
+@media screen and (max-width: 899px) and (min-width: 700px) {
+  .landing-page {
+    .headline {
 
-      img{
-        margin-top:-20px;
+      img {
+        margin-top: -20px;
         margin-left: 60px;
         height: 150px;
         width: 150px;
       }
-      h1{
-        font-size:40px;
+      h1 {
+        font-size: 40px;
       }
     }
-    margin-left:-40px ;
-
+    margin-left: -40px;
 
   }
 }
 
-@media screen and (max-width:699px) and (min-width: 480px){
-  .landing-page{
-    .headline{
+@media screen and (max-width: 699px) and (min-width: 480px) {
+  .landing-page {
+    .headline {
 
-
-      img{
-        margin-top:-30px;
+      img {
+        margin-top: -30px;
         margin-left: 90px;
         height: 120px;
         width: 120px;
       }
-      h1{
-        font-size:25px;
+      h1 {
+        font-size: 25px;
       }
     }
 
   }
 }
 
-@media screen and (max-width:479px) and  (min-width: 320px)  {
-  .landing-page{
-    .headline{
+@media screen and (max-width: 479px) and (min-width: 320px) {
+  .landing-page {
+    .headline {
 
-      img{
+      img {
         margin-top: -20px;
         margin-left: 140px;
         height: 80px;
         width: 80px;
       }
-      h1{
-        font-size:18px;
+      h1 {
+        font-size: 18px;
       }
     }
     margin-left: -25px;
 
-
   }
 }
 
-@media screen and (max-width:319px) and  (min-width: 0px)  {
-  .landing-page{
-    .headline{
+@media screen and (max-width: 319px) and (min-width: 0px) {
+  .landing-page {
+    .headline {
 
-      img{
+      img {
         margin-top: -10px;
         margin-left: 165px;
         height: 55px;
         width: 55px;
       }
-      h1{
+      h1 {
         font-size: 15px;
       }
     }
     margin-left: -25px;
 
-
   }
 }
 
-
-
-
 .general-infos {
   background-color: brown;
-  display:none;
+  display: none;
 
 }
 
-.mobile-navbar{
+.mobile-navbar {
   display: inline-block;
   text-align: center;
   position: relative;
   padding-top: 3%;
 
-
-
-
-  .mobile-nav-icons{
+  .mobile-nav-icons {
     padding: 10px 10px 10px 10px;
     color: #fff;
     font-size: 40px;
     cursor: pointer;
 
-    .mobile-nav-icons:hover{
+    .mobile-nav-icons:hover {
       background-color: rgb(0, 64, 129);
       border-radius: 50%;
       border: 1px solid grey;
     }
-    .mobile-nav-icons:active{
+    .mobile-nav-icons:active {
       background-color: rgb(0, 64, 129);
       border-radius: 50%;
       border: 1px solid grey;
     }
 
+    .info-icon {
 
-  .info-icon{
+    }
 
+    .time-icon {
+
+    }
+
+    .phone-icon {
+
+    }
+
+    .maps-icon {
+
+    }
   }
-
-  .time-icon{
-
-  }
-
-  .phone-icon{
-
-  }
-
-  .maps-icon{
-
-
-  }
-}
 }
 
 .foreword {
   background-color: #005ba9;
+  .mobile-foreword {
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    color: #fff;
+  }
 
 }
 
 .opening-hours {
   background-color: #005ba9;
+  .mobile-times {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32%;
+    color: #fff;
+  }
 }
 
 .maps {
   background-color: #005ba9;
+  .mobile-maps {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+
+    color: #fff;
+
+    p {
+      line-height: 8px;
+    }
+
+    .maps-button {
+      cursor: pointer;
+      -webkit-box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
+      -moz-box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
+      box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
+      margin-top: 5%;
+      padding: 3% 5%;
+      display: inline-block;
+      background-color: #fff;
+      vertical-align: middle;
+
+      
+      .button-text {
+        color: #000;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .button-icon{
+        vertical-align: middle;
+
+        display: inline-block;
+        color: #000;
+      }
+    }
+  }
 }
 
 .contact {
   background-color: #005ba9;
+  .mobile-contact {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32%;
+    color: white;
+  }
 }
 
 .team-page {
@@ -299,13 +345,12 @@ body {
 }
 
 .silvia {
-  background-color:#005ba9;
+  background-color: #005ba9;
 }
 
 .jasminke {
   background-color: #005ba9;
 }
-
 
 .nav-line-top {
 
@@ -323,6 +368,7 @@ body {
   }
 
 }
+
 .nav-line-bottom {
 
   position: absolute;
@@ -338,3 +384,5 @@ body {
 
   }
 }
+
+

@@ -154,15 +154,63 @@ body {
 
 .foreword {
   background-color: #005ba9; }
+  .foreword .mobile-foreword {
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    color: #fff; }
 
 .opening-hours {
   background-color: #005ba9; }
+  .opening-hours .mobile-times {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32%;
+    color: #fff; }
 
 .maps {
   background-color: #005ba9; }
+  .maps .mobile-maps {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    color: #fff; }
+    .maps .mobile-maps p {
+      line-height: 8px; }
+    .maps .mobile-maps .maps-button {
+      cursor: pointer;
+      -webkit-box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
+      -moz-box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
+      box-shadow: 12px 12px 50px 3px rgba(0, 0, 0, 0.47);
+      margin-top: 5%;
+      padding: 3% 5%;
+      display: inline-block;
+      background-color: #fff;
+      vertical-align: middle; }
+      .maps .mobile-maps .maps-button .button-text {
+        color: #000;
+        display: inline-block;
+        vertical-align: middle; }
+      .maps .mobile-maps .maps-button .button-icon {
+        vertical-align: middle;
+        display: inline-block;
+        color: #000; }
 
 .contact {
   background-color: #005ba9; }
+  .contact .mobile-contact {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32%;
+    color: white; }
 
 .team-page {
   background-color: teal;
