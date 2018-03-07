@@ -236,20 +236,65 @@ body {
   margin-right: auto;
   margin-top: 5%; }
 
-.felix-mobile {
-  background-color: #005ba9; }
+.felix-mobile .mobile-picture-felix {
+  background-image: url("../assets/imgs/Felix.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 240px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%; }
 
-.stefan {
-  background-color: #005ba9; }
+.stefan-mobile .mobile-picture-stefan {
+  background-image: url("../assets/imgs/Stefan.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 240px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%; }
 
-.tanja {
-  background-color: #005ba9; }
+.tanja-mobile .mobile-picture-tanja {
+  background-image: url("../assets/imgs/Tanja.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 240px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%; }
 
-.silvia {
-  background-color: #005ba9; }
+.silvia-mobile .mobile-picture-silvia {
+  background-image: url("../assets/imgs/Silvia.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 240px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%; }
 
-.jasminke {
-  background-color: #005ba9; }
+.jasminke-mobile .mobile-picture-jasminke {
+  background-image: url("../assets/imgs/Jasminke.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 240px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%; }
 
 .nav-line-top {
   width: 100%;
