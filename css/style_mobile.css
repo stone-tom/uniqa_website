@@ -142,15 +142,16 @@ body {
     padding: 10px 10px 10px 10px;
     color: #fff;
     font-size: 40px;
-    cursor: pointer; }
+    cursor: pointer;
+    border: 1px solid transparent; }
+    .mobile-navbar .mobile-nav-icons .active {
+      background-color: #004081;
+      border-radius: 50%;
+      border: 1px solid transparent; }
     .mobile-navbar .mobile-nav-icons .mobile-nav-icons:hover {
       background-color: #004081;
       border-radius: 50%;
-      border: 1px solid grey; }
-    .mobile-navbar .mobile-nav-icons .mobile-nav-icons:active {
-      background-color: #004081;
-      border-radius: 50%;
-      border: 1px solid grey; }
+      border: 1px solid transparent; }
 
 .foreword {
   background-color: #005ba9; }

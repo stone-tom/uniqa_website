@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 
     var swiperV = new Swiper('.swiper-general-v', {
-        initialSlide: 1,
+        initialSlide: 0,
         direction: 'vertical',
         mousewheel: {
             invert: true,
@@ -44,4 +44,31 @@ $(document).ready(function () {
 
 
     });
+
+
+    //Navigation & Adding Active Class on Info-Page
+
+    //General Infos
+    $(".info-icon").click(function() {
+
+        swiperH1.slideTo(0);
+        $(".info-icon").toggleClass('active');
+        $(".time-icon").removeClass('active');
+
+
+
+    });
+
+
+    //Opening Times
+    $(".time-icon").click(function() {
+
+        swiperH1.slideTo(1);
+        $(".time-icon").toggleClass('active');
+        $(".info-icon").removeClass('active');
+
+    });
+
+
+
 });
