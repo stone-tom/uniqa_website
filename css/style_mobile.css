@@ -214,6 +214,22 @@ body {
     margin-top: 32%;
     color: white; }
 
+.arrow-right-info {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff; }
+
+.arrow-left-info {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff; }
+
 .team-page {
   background-color: teal;
   display: none; }
@@ -226,6 +242,7 @@ body {
   width: 100%; }
 
 .andreas-mobile .mobile-picture-andreas {
+  position: relative;
   background-image: url("../assets/imgs/Andreas.JPG");
   background-size: cover;
   background-repeat: no-repeat;
@@ -234,19 +251,38 @@ body {
   height: 250px;
   border-radius: 50%;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%; }
-.andreas-mobile .mobile-team-content {
+  margin-right: auto; }
+
+.arrow-right {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  font-size: 48px;
+  cursor: pointer; }
+
+.arrow-left {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  font-size: 48px;
+  cursor: pointer; }
+
+.mobile-name {
+  margin-top: 5%; }
+  .mobile-name p {
+    font-weight: bold; }
+
+.mobile-team-content {
   padding: 2% 0 2% 0; }
-  .andreas-mobile .mobile-team-content .mobile-mail {
+  .mobile-team-content .mobile-mail {
     margin: 2%; }
-  .andreas-mobile .mobile-team-content p {
+  .mobile-team-content p {
     padding: 1%;
     display: inline;
     vertical-align: middle;
     text-align: center;
     color: white; }
-  .andreas-mobile .mobile-team-content i {
+  .mobile-team-content i {
     margin-right: 1%;
     display: inline;
     vertical-align: middle;

@@ -54,7 +54,7 @@ $(document).ready(function () {
         $(".time-icon").removeClass('active');
         $(".maps-icon").removeClass('active');
         $(".phone-icon").removeClass('active');
-        $(".info-icon").toggleClass('active');
+        $(".info-icon").addClass('active');
 
     });
 
@@ -65,7 +65,7 @@ $(document).ready(function () {
         $(".info-icon").removeClass('active');
         $(".maps-icon").removeClass('active');
         $(".phone-icon").removeClass('active');
-        $(".time-icon").toggleClass('active');
+        $(".time-icon").addClass('active');
 
     });
     //Maps
@@ -74,7 +74,7 @@ $(document).ready(function () {
         $(".info-icon").removeClass('active');
         $(".phone-icon").removeClass('active');
         $(".time-icon").removeClass('active');
-        $(".maps-icon").toggleClass('active');
+        $(".maps-icon").addClass('active');
 
     });
 
@@ -84,7 +84,7 @@ $(document).ready(function () {
         $(".time-icon").removeClass('active');
         $(".maps-icon").removeClass('active');
         $(".info-icon").removeClass('active');
-        $(".phone-icon").toggleClass('active');
+        $(".phone-icon").addClass('active');
 
     });
 

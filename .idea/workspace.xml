@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02eba058-c277-4121-ac27-95393162162f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uniqa_website.iml" afterPath="$PROJECT_DIR$/.idea/uniqa_website.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.css" afterPath="$PROJECT_DIR$/css/style_mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.css.map" afterPath="$PROJECT_DIR$/css/style_mobile.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_mobile.scss" afterPath="$PROJECT_DIR$/css/style_mobile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
@@ -28,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="144" column="95" lean-forward="false" selection-start-line="144" selection-start-column="95" selection-end-line="144" selection-end-column="95" />
+            <state relative-caret-position="373">
+              <caret line="543" column="54" lean-forward="true" selection-start-line="543" selection-start-column="54" selection-end-line="543" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="1513">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,7 +50,7 @@
       <file leaf-file-name="style_desktop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style_desktop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13770">
+            <state relative-caret-position="861">
               <caret line="810" column="0" lean-forward="false" selection-start-line="810" selection-start-column="0" selection-end-line="810" selection-end-column="0" />
               <folding />
             </state>
@@ -61,7 +60,7 @@
       <file leaf-file-name="style_desktop.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style_desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11730">
+            <state relative-caret-position="17">
               <caret line="690" column="7" lean-forward="false" selection-start-line="690" selection-start-column="3" selection-end-line="690" selection-end-column="7" />
               <folding />
             </state>
@@ -71,8 +70,8 @@
       <file leaf-file-name="style_mobile.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style_mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="214" column="15" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="15" />
+            <state relative-caret-position="645">
+              <caret line="342" column="9" lean-forward="true" selection-start-line="342" selection-start-column="9" selection-end-line="342" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -90,13 +89,14 @@
       <find>in maps</find>
       <find>p</find>
       <find>maps</find>
-      <find>andreas</find>
       <find>href</find>
       <find>team</find>
       <find>mobile-te</find>
       <find>mobile-nav</find>
       <find>time-icon</find>
+      <find>andreas</find>
       <find>infos</find>
+      <find>arrow-right</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,9 +106,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/style_desktop.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/style_mobile.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -275,12 +275,12 @@
       <workItem from="1522489095305" duration="2452000" />
       <workItem from="1522491638867" duration="191000" />
       <workItem from="1522492028442" duration="6967000" />
-      <workItem from="1523205018607" duration="1731000" />
+      <workItem from="1523205018607" duration="7955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81348000" />
+    <option name="totallyTimeSpent" value="87572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -474,9 +474,17 @@
     <entry file="file://$PROJECT_DIR$/assets/icons/arrow-down-infos.png" />
     <entry file="file://$PROJECT_DIR$/css/swiper.css" />
     <entry file="file://$PROJECT_DIR$/css/style_mobile.css" />
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style_desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11730">
+        <state relative-caret-position="17">
           <caret line="690" column="7" lean-forward="false" selection-start-line="690" selection-start-column="3" selection-end-line="690" selection-end-column="7" />
           <folding />
         </state>
@@ -484,7 +492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_desktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13770">
+        <state relative-caret-position="861">
           <caret line="810" column="0" lean-forward="false" selection-start-line="810" selection-start-column="0" selection-end-line="810" selection-end-column="0" />
           <folding />
         </state>
@@ -492,24 +500,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="214" column="15" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="15" />
+        <state relative-caret-position="645">
+          <caret line="342" column="9" lean-forward="true" selection-start-line="342" selection-start-column="9" selection-end-line="342" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="144" column="95" lean-forward="false" selection-start-line="144" selection-start-column="95" selection-end-line="144" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="373">
+          <caret line="543" column="54" lean-forward="true" selection-start-line="543" selection-start-column="54" selection-end-line="543" selection-end-column="54" />
           <folding />
         </state>
       </provider>

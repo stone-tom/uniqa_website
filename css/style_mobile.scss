@@ -328,6 +328,26 @@ body {
     color: white;
   }
 }
+.arrow-right-info{
+  position: absolute;
+  right:0;
+  top:50%;
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.arrow-left-info{
+  position: absolute;
+  left:0;
+  top:50%;
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff;
+}
+
+
 
 .team-page {
   background-color: teal;
@@ -348,6 +368,7 @@ body {
 
 .andreas-mobile {
   .mobile-picture-andreas{
+    position: relative;
     background-image: url('../assets/imgs/Andreas.JPG');
     background-size: cover;
     background-repeat: no-repeat;
@@ -357,9 +378,35 @@ body {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
-
+  }
 }
+
+.arrow-right{
+  position: absolute;
+  right:0;
+  top:40%;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+
+.arrow-left{
+  position: absolute;
+  left:0;
+  top:40%;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.mobile-name{
+  margin-top: 5%;
+
+  p{
+    font-weight: bold;
+  }
+}
+
+
 .mobile-team-content{
   padding: 2% 0 2% 0;
 
@@ -372,7 +419,7 @@ body {
     vertical-align: middle;
     text-align: center;
 
-  color: white;
+    color: white;
   }
   i{
     margin-right: 1%;
@@ -381,7 +428,6 @@ body {
     vertical-align: middle;
     text-align: center;
   }
-}
 }
 
 .felix-mobile {
