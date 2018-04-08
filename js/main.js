@@ -50,22 +50,43 @@ $(document).ready(function () {
 
     //General Infos
     $(".info-icon").click(function() {
-
         swiperH1.slideTo(0);
-        $(".info-icon").toggleClass('active');
         $(".time-icon").removeClass('active');
+        $(".maps-icon").removeClass('active');
+        $(".phone-icon").removeClass('active');
+        $(".info-icon").toggleClass('active');
+
     });
 
 
     //Opening Times
     $(".time-icon").click(function() {
-
         swiperH1.slideTo(1);
-        $(".time-icon").toggleClass('active');
         $(".info-icon").removeClass('active');
+        $(".maps-icon").removeClass('active');
+        $(".phone-icon").removeClass('active');
+        $(".time-icon").toggleClass('active');
+
+    });
+    //Maps
+    $(".maps-icon").click(function() {
+        swiperH1.slideTo(2);
+        $(".info-icon").removeClass('active');
+        $(".phone-icon").removeClass('active');
+        $(".time-icon").removeClass('active');
+        $(".maps-icon").toggleClass('active');
 
     });
 
+    //Contact
+    $(".phone-icon").click(function() {
+        swiperH1.slideTo(3);
+        $(".time-icon").removeClass('active');
+        $(".maps-icon").removeClass('active');
+        $(".info-icon").removeClass('active');
+        $(".phone-icon").toggleClass('active');
+
+    });
 
 
 });
