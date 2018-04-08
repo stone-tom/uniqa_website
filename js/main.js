@@ -54,9 +54,6 @@ $(document).ready(function () {
         swiperH1.slideTo(0);
         $(".info-icon").toggleClass('active');
         $(".time-icon").removeClass('active');
-
-
-
     });
 
 
