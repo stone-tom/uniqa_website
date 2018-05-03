@@ -1227,21 +1227,22 @@ body {
 
   }
   .nav-line-bottom {
-
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 12.5%;
 
-    .arrow-down {
-      position: absolute;
-      cursor: pointer;
-      height: 100%;
-      width: auto;
 
-    }
-  }
+
+.arrow-down-impressum{
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  width: auto;
 }
+}
+
+
 
 // DONT TOUCH---
 .andreas-mobile {
@@ -1299,3 +1300,5 @@ body {
 
   }
 }
+}
+
